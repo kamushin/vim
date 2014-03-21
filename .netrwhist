@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/etc/php5'
+let g:netrw_dirhist_2='/home/kamushin/njupt-svn/0_交流文档区/.svn'
+let g:netrw_dirhist_3='/etc/apt'
+let g:netrw_dirhist_4='/home/kamushin/html/monalisa.html'
+let g:netrw_dirhist_5='/usr/lib'
+let g:netrw_dirhist_6='/usr/local/lib/python2.7/dist-packages'
+let g:netrw_dirhist_7='/home/kamushin/dotfiles/_vim'
+let g:netrw_dirhist_8='/home/kamushin/In-Love/inLove'
+let g:netrw_dirhist_9='/home/kamushin/qudian/qcore/qcore/tests'
