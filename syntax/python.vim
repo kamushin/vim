@@ -86,7 +86,7 @@ syn keyword pythonInclude   from import
 " Kamushin added magic function
 " http://www.rafekettler.com/magicmethods.htmlpython_no_
 if !exists("python_no_magic")
-  syn keyword pythonMagic __init__ __new__ __del__
+  syn keyword pythonMagic __init__ __new__ __del__ __metaclass__
   syn keyword pythonMagic __cmp__ __eq__ __ne__ __lt__ __gt__ __le__ __ge__
 endif
 
