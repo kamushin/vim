@@ -130,7 +130,7 @@ syn match pythonClassParameters "[^,]*" contained contains=pythonBuiltin,pythonB
 
 
 syn match   pythonComment   "#.*$" contains=pythonTodo,@Spell
-syn keyword pythonTodo      FIXME NOTE NOTES TODO XXX contained
+syn keyword pythonTodo      TEST FIXME NOTE NOTES TODO XXX contained
 
 " Triple-quoted strings can contain doctests.
 syn region  pythonString

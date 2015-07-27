@@ -181,7 +181,7 @@ set virtualedit=block       " Let cursor move past the last char in <C-v> mode
 set scrolloff=3             " Keep 3 context lines above and below the cursor
 set backspace=2             " Allow backspacing over autoindent, EOL, and BOL
 set showmatch               " Briefly jump to a paren once it's balanced
-set nowrap                  " don't wrap text
+set wrap                  " don't wrap text
 set linebreak               " don't wrap textin the middle of a word
 set autoindent              " always set autoindenting on
 set smartindent             " use smart indent if there is no indent file
@@ -293,6 +293,7 @@ Bundle 'gmarik/vundle'
 Bundle '_jsbeautify'
 Bundle 'The-NERD-Commenter'
 Bundle 'Tabular'
+Bundle "pangloss/vim-javascript"
 
 " Add the virtualenv's site-packages to vim path
 if has('python')
@@ -333,5 +334,13 @@ inoremap [ []<Esc>i
 inoremap " ""<Esc>i
 inoremap ' ''<Esc>i
 inoremap { {}<Esc>i
+nmap j gj
+nmap k gk
 
+" use system clipboard
+set clipboard=unnamed
 
+set fileencodings=utf-8,gb18030,utf-16,big5
+set mouse=a
+" 增加自动补全
+set dictionary+=~/.vim/dict/*
